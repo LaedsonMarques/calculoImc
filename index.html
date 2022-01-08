@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen">
+    <script src="script.js"></script>
+</head>
+
+<body>
+               <!--Cabeçalho-->
+<header class="header">
+<h3>Cálculo do índice de massa corporal</h3>
+</header>
+
+    <section class="container1">
+                <!--Formulário do Projeto-->
+      <div class="form1">    
+           <br>
+           <form  name="imcForm" action="#"> 
+              <label id="lblAltura">Altura
+                  <input type="text" id="altura" name="altura" placeholder="Ex. 1.75">
+                <br>                   
+                <label id="lblPeso">Peso
+                    <input type="text" id="peso" name="peso" placeholder="Ex. 60">
+                <br><br>
+               <input type="submit" id="botao" value="Calcular" onclick="calcular()">
+            
+         </form>
+        </div>
+                 <!--Arte relacionada ao conteúdo do projeto-->
+        <div class="panel1">
+            <figure>
+                <img src="imagens//imc.png" id="imagem" alt="IMC arte" title="Figure imc">
+            </figure>
+        </div>        
+    </section>
+                 <!--Roda-pé com informações do desenvolvedor-->
+       <footer class="footer" id="end">
+           <hr>
+              <br>
+        &copy Laedson Marques
+       </footer>     
+</body>
+</html>
